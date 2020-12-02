@@ -20,6 +20,6 @@ lazy val docker = (project in file("."))
     name := "openjdk-test",
     packageName in Docker := "openjdk-test",
     Defaults.itSettings,
-    dockerBaseImage := "adoptopenjdk:11-jre-hotspot",
+    dockerBaseImage := "adoptopenjdk:11-jre-hotspot-bionic",
     dockerUpdateLatest := true
   )
