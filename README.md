@@ -1,6 +1,6 @@
 # Description
 
-Simple _Hello-World_ application to test `adoptopenjdk:11-jre-hotspot` as a base image for a Docker container.
+Simple _Hello-World_ application to test `adoptopenjdk:11-jre-hotspot-bionic` as a base image for a Docker container.
 
 It is meant to be run inside a Raspberry Pi 4.
 
@@ -10,7 +10,7 @@ The `Dockerfile` and important folders to create the image are inside the `targe
 
 The output of the image when ran inside a Raspberry Pi 4 is the following:
 
-![docker-jdk-pi](https://user-images.githubusercontent.com/4955553/100628058-6a7ac200-32ed-11eb-8afd-884e1ee985e0.jpg)
+![docker-jdk-bionic-pi](https://user-images.githubusercontent.com/4955553/100926687-71e6ca80-34a9-11eb-8493-9be50d1938b0.jpg)
 
 ## Specs of the Raspberry Pi used:
 
